@@ -1,0 +1,27 @@
+%rb-light{
+  font-family: 'RobotoCondensed-Light';
+  font-weight: 300;
+}
+
+%rb-light-italic{
+  font-family: 'RobotoCondensed-LightItalic';
+  font-weight: 300;
+}
+
+%rb-regular{
+  font-family: 'RobotoCondensed-Regular';
+  font-weight: 400;
+}
+
+%bal{
+  font-family: 'balqis';
+  font-weight: 300;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

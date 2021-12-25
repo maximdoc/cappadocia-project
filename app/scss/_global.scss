@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  @extend %rb-light;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-section {
+  margin: 200px auto;
+  max-width: 1920px;
+}
+
+.title {
+  @extend %bal;
+  font-size: 96px;
+  line-height: 128px;
+  color: #E2AB3F;
+
+  span {
+    font-size: 24px;
+    line-height: 28px;
+    @extend %rb-light-italic;
+    display: block;
+    margin-top: -30px;
+    color: #000000;
+  }
+}
+
+
+
+
+
